@@ -6,7 +6,9 @@
 <script>
 var usermail, firstName, lastName, myname;
 
-var apiUrl = 'https://nlp.gurucan.com/api/users/me';
+// REPLACE XXX WITH YOUR OWN GURUCAN SUBDOMAIN
+
+var apiUrl = 'https://XXX.gurucan.com/api/users/me';
 fetch(apiUrl).then(response => {
     return response.json();
     }).then(data => {
