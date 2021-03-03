@@ -1,6 +1,6 @@
 
-
-<script async="async" src="//cdn.wishpond.net/connect.js?merchantId=1504740&amp;writeKey=d94dc7a4fbca" type="text/javascript"></script>
+<!-- REPLACE WITH YOUR OWN WISHPOND TRACKING SCRIPT  -->
+<script async="async" src="//cdn.wishpond.net/connect.js?merchantId=XXXXX&amp;writeKey=XXXXX" type="text/javascript"></script>
 
 
 <script>
@@ -27,10 +27,11 @@ fetch(apiUrl).then(response => {
         });
 
     //(standard) Mautic Tracking script 
+    // REPLACE WITH YOUR OWN MAUTIC SCRIPT XXXXX 
 (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
 w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
 m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://mautic.bimplis.com/mtc.js','mt');
+})(window,document,'script','https://mautic.XXXXX.com/mtc.js','mt');
 
 
 // Track Gurucan URL changes without need for page refresh 
